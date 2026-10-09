@@ -1,0 +1,97 @@
+/* Configurações gerais da página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+    text-align: center;
+}
+
+/* Cabeçalho */
+header {
+    background-color: aquamarine;
+    color: black;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto 20px auto;
+    border-radius: 0 0 10px 10px;
+}
+
+header h1 {
+    margin: 0 0 10px 0;
+}
+
+/* Conteúdo principal */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Subtítulos e autoria */
+h2 {
+    font-style: italic;
+    color: #444;
+}
+
+.autor {
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* 1. Ajuste do tamanho da imagem */
+.imagem-principal {
+    max-width: 100%;
+    width: 350px; /* Altere este valor para aumentar ou diminuir a imagem */
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+}
+
+/* 2. Estilização do Botão */
+.container-botao {
+    margin: 25px 0;
+}
+
+.botao-link {
+    display: inline-block;
+    background-color: #008b8b;
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 25px;
+    transition: background-color 0.3s ease;
+}
+
+.botao-link:hover {
+    background-color: #005f5f;
+}
+
+/* Lista do passo a passo */
+.passo-a-passo {
+    text-align: left;
+    background-color: white;
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    margin-top: 30px;
+}
+
+.passo-a-passo ol {
+    padding-left: 20px;
+    line-height: 1.8;
+}
+
+/* 3. Rodapé com autoria do site */
+footer {
+    margin-top: 40px;
+    padding: 15px;
+    background-color: #e0e0e0;
+    font-size: 14px;
+    color: #555;
+}
